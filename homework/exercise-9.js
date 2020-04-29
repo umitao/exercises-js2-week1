@@ -35,14 +35,29 @@ var product1 = {
   price: 12.98,
   stock: 105
 };
-var product1 = {
+var product2 = {
   id: 2,
   name: "Watch Rocker",
   price: 9.99,
   stock: 2
 };
+var product3 = {
+  id: 3,
+  name: "Portable Speaker",
+  price: 18.99,
+  stock: 64
+};
+var product4 = {
+  id: 4,
+  name: "Laptop Charger",
+  price: 11.50,
+  stock: 30
+};
 
 products.push(product1);
+products.push(product2);
+products.push(product3);
+products.push(product4);
 
 var shoppingCart = {
   totalPrice: 0,
@@ -50,7 +65,9 @@ var shoppingCart = {
 };
 
 function addToShoppingCart(id){
-
+  if (products.stock > 0) {
+    
+  }
 }
 
 function removeFromShoppingCart(id){
